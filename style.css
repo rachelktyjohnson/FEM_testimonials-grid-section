@@ -3,6 +3,92 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+  background: hsl(210deg, 46%, 95%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 325px;
+  margin: 50px 0;
+  display: grid;
+  grid-gap: 25px;
+}
+.container section.testimonial {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+}
+.container section.testimonial .user {
+  display: flex;
+  align-items: center;
+}
+.container section.testimonial .user img {
+  border-radius: 100%;
+  border: 1px solid hsl(0deg, 0%, 81%);
+  height: 35px;
+  margin-right: 10px;
+}
+.container section.testimonial .user .user-details h2 {
+  font-size: 0.7rem;
+}
+.container section.testimonial .user .user-details h3 {
+  font-size: 0.6rem;
+}
+.container section.testimonial h1 {
+  font-size: 1.265rem;
+  margin: 20px 0;
+}
+.container section.testimonial p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.light-text {
+  color: hsl(210deg, 46%, 95%);
+}
+.light-text h3 {
+  color: hsla(210deg, 46%, 95%, 0.5);
+}
+.light-text p {
+  color: hsla(210deg, 46%, 95%, 0.7);
+}
+
+.dark-text {
+  color: hsl(219deg, 29%, 14%);
+}
+.dark-text h3 {
+  color: hsla(219deg, 29%, 14%, 0.5);
+}
+.dark-text p {
+  color: hsla(219deg, 29%, 14%, 0.7);
+}
+
+.feature-background {
+  background: hsl(263deg, 55%, 52%);
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top 5px right 20px;
+}
+
+.gray-background {
+  background: hsl(217deg, 19%, 35%);
+}
+
+.black-background {
+  background: hsl(219deg, 29%, 14%);
+}
+
+.white-background {
+  background: white;
 }
 
 /*# sourceMappingURL=style.css.map */
